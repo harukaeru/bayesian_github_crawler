@@ -1,1 +1,3 @@
 # Bayesian GitHub Crawler
+
+ナイーブベイズ分類器を使ってGitHubレポジトリのクローリングをいい感じにしようという試みのものです。

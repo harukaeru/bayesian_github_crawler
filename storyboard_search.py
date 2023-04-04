@@ -30,7 +30,7 @@ def load_training_data(file_path="training_data.json"):
 
     if not os.path.exists(file_path):
         created = [item["name"] for item in initial_data], [item["value"] for item in initial_data], file_path
-        save_training_data(created)
+        save_training_data(created[0], created[1])
         return created
 
     else:
